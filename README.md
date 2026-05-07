@@ -7,3 +7,4 @@ This repository contains my Python practice code for interview preparation.
 - Lists (mutable)
 - Tuples (immutable)
 - Dictionaries
+-Loops
