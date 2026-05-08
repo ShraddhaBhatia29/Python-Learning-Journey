@@ -9,3 +9,11 @@ This repository contains my Python practice code for interview preparation.
 - Dictionaries
   
 - Loops
+
+## OOPS Concepts (Branch: oops-concepts)
+
+- Class and Object
+- Class vs Instance Variables
+- Constructor (__init__)
+- self keyword
+- Practical OOPS examples
