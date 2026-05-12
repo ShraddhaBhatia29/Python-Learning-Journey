@@ -1,0 +1,99 @@
+# Instructions:
+#
+# Create a class named BasicCalculator.
+#
+# Define a constructor that initializes two numbers. Use numbers 10 & 5
+#
+# Implement methods for:
+#
+# Addition
+#
+# Subtraction
+#
+# Multiplication
+#
+# Division
+#
+# Each method should return the result of the operation.
+#
+# Create an instance of the BasicCalculator class and demonstrate the functionality of each method.
+#
+# Example Output:
+#
+# Addition: 15
+# Subtraction: 5
+# Multiplication: 50
+# Division: 2.0
+
+class BasicCalculator:
+
+    # constructor
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def Addition(self):
+        return (self.a + self.b)
+
+    def Subtraction(self):
+        return (self.a - self.b)
+
+    def Multiplication(self):
+        return (self.a * self.b)
+
+    def Division(self):
+        return (self.a / self.b)
+
+obj1 = BasicCalculator(10, 5)
+
+print(f"Addition: {obj1.Addition()}")
+print(f"Subtraction: {obj1.Subtraction()}")
+print(f"Multiplication: {obj1.Multiplication()}")
+print(f"Division: {obj1.Division()}")
+
+
+#ANOTHER PROGRAM
+
+# Objective: Create a function that greets the user.
+#
+# Instructions:
+#
+# Write a function called GreetUser that takes a single argument username.
+#
+# The function should print "Hello, [username]! Welcome to the Python course."
+#
+# Call the function with username "John".
+#
+# Expected Output:
+#
+# Hello, John! Welcome to the Python course.
+
+def GreetUser(Username):
+    print(f"Hello, {Username}! Welcome to the Python course.")
+
+GreetUser("John")
+
+# Objective: Calculate the average of three numbers.
+#
+# Instructions:
+#
+# Create a function called CalculateAverage that takes three parameters: num1, num2, and num3.
+#
+# Use the numbers 10,20,30 as input to functions
+#
+# The function should return the average of these three numbers.
+#
+# Expected Output:
+#
+# The average of 10, 20, and 30 is 20.0
+
+
+
+
+def CalculateAverage(num1,num2,num3):
+    return((num1+num2+num3)/3)
+
+avg=CalculateAverage(10,20,30)
+print("The average of 10,20 and 30 is", avg)
+
+
