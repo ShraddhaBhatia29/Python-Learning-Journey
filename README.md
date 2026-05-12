@@ -1,19 +1,21 @@
-# Python Interview Preparation
 
-This repository contains my Python practice code for interview preparation.
+# Python Learning Journey 🐍
 
-## Topics Covered
+This repository documents my journey of learning Python from fundamentals to Object-Oriented Programming (OOP).
+
+## 📌 Topics Covered
 - Variables and Strings
-- Lists (mutable)
-- Tuples (immutable)
-- Dictionaries
-  
-- Loops
+- Lists, Tuples, Dictionaries
+- Loops and Conditional Statements
+- Functions
+- Object-Oriented Programming (Classes, Inheritance)
 
-## OOPS Concepts (Branch: oops-concepts)
+## 📂 Project Structure
+- `basics/` – Core Python concepts
+- `functions/` – Function examples
+- `oops/` – OOP concepts with real examples
 
-- Class and Object
-- Class vs Instance Variables
-- Constructor (__init__)
-- self keyword
-- Practical OOPS examples
+## 🚀 How to Run
+```bash
+python filename.py
+``
